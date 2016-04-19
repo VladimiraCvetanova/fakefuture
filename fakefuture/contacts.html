@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FAKE FUTURE</title>
+	<link rel="shortcut icon" href="img/favicon2_360.png">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta name="description" content="Graphic Design Studio" />
+	<meta name="keywords" content="Graphic Design, branding, illustration, web design, web development, mobile app design" />
+	<meta name="author" content="Fake Future">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:200,300,600,400,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+</head>
+<body>
+	<div id="contacts_menu" class='container-fluid'>
+		<div id='menu_logo' class='row'>
+			<div id='logo_icon' class='col-lg-3 col-md-3 col-sm-5 col-xs-5'>
+				<a href='index.html'>
+					<img class="logo" src="img/icon_fakefuture_fullcolor.png">
+					<img class="logotype" src="img/fakefuture.svg">
+				</a>
+			</div>
+				<div id="menu_icon" class='col-lg-3 col-lg-offset-6 col-md-3 col-md-offset-6 col-sm-5 col-sm-offset-2 col-xs-5 col-xs-offset-2' onclick='myfunction()'>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+		</div>
+		<div class="row title_row">
+			<h2 class='col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1'>CONTACTS</h2>
+		</div>
+		<div class='row con_address'>
+			<div class="col-lg-4 col-lg-offset-3 col-md-4 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-12 left-column">
+				<p class="text-left">UNITED STATES</p>
+				<i class="fa fa-map-marker"></i><p class="text-left">4535 Commerce St, Virginia Beach, VA 23462</p>
+				<i class="fa fa-phone"></i><p class="text-left">+1 757 648 9614</p>
+				<i class="fa fa-send"></i><p class="text-left">hello@fakefuture.me</p>
+			</div>
+			<div class="col-lg-3 col-md-3 3 col-sm-5 col-xs-12 right-column">
+				<p class="text-left">BULGARIA</p>
+				<i class="fa fa-map-marker"></i><p class="text-left">Bulgariq, Ruse, Midia-Enos str.4</p>
+				<i class="fa fa-phone"></i><p class="text-left">+359 878 509 446</p>
+				<i class="fa fa-send"></i><p class="text-left">hello@fakefuture.me</p>
+			</div>
+		</div>
+		<div class="row social_nets">
+				<a href="https://www.facebook.com/fakefuture"><i class="fa fa-facebook fa-2x"></i></a>
+				<a href="https://twitter.com/fakefuturelab"><i class="fa fa-twitter fa-2x"></i></a>
+				<a href="https://dribbble.com/fakefuture"><i class="fa fa-dribbble fa-2x"></i></a>
+				<a href="https://www.behance.net/fakefuture"><i class="fa fa-behance fa-2x"></i></a>
+			</div>
+		<div class="row con_buttons">
+			<form name="contactform" method="post" action="send_form_email.php">
+				<input  type="text" placeholder="Name" name="name" maxlength="50" size="30">
+				<input  type="text" placeholder="Email" name="email" maxlength="80" size="30">
+				<input  type="text" placeholder="Telephone" name="telephone" maxlength="30" size="30">
+				<textarea  placeholder="Massaege" name="comments" maxlength="1000" cols="25" rows="4"></textarea>
+				<button class="submit" type="submit" value="Submit" onclick="myFunction()">SEND</button>
+			</form>
+			
+			</div>
+			<div class='row' id='footer'>
+				<p class="text-center">Copyright <i class="fa fa-copyright"></i> 2015 fake Future. HANDCRAFTED WITH LOVE .</p>
+				</div>
+		</div>
+		<div id="main_menu">
+
+			<div class="row" id="first_table_row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="studio.html" id='studio_icon'><i class="fa fa-desktop fa-5x"></i><p>STUDIO</p></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="services.html"><i class="fa fa-space-shuttle fa-5x"></i><p>SERVICES</p></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="work.html"><i class="fa fa-diamond fa-5x"></i><p>WORK</p></a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="skills.html"><i class="fa fa-gamepad fa-5x"></i><p>SKILLS</p></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="hireus.html" ><i class="fa fa-bicycle fa-5x"></i><p>HIRE US</p></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="contacts.html"><i class="fa fa-send fa-5x"></i><p>CONTACT</p></a>
+				</div>
+			</div>
+		</div>
+<script>
+	document.getElementById('menu_icon').onclick = function myfunction() {
+	document.getElementById('menu_icon').classList.toggle('open');
+	var mm = document.getElementById('main_menu');
+	if (mm.style.display == 'none' || mm.style.display == '') {
+    mm.style.display = 'block'
+    } else {
+        mm.style.display = 'none'};
+	}
+</script>
+
+</body>
+</html>

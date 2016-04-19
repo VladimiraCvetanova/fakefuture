@@ -1,0 +1,3 @@
+193.68.217.7 - - [12/Jul/2015:16:37:38 +0300] "GET http://fakefuture.me/index.php HTTP/1.1" 200 3903 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+193.68.217.7 - - [12/Jul/2015:16:45:38 +0300] "GET http://fakefuture.me/index.php HTTP/1.1" 200 3903 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"
+193.68.217.7 - - [12/Jul/2015:16:46:40 +0300] "GET http://fakefuture.me/index.php HTTP/1.1" 200 3903 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.61 Mobile/12H143 Safari/600.1.4"

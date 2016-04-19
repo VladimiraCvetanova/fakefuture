@@ -1,0 +1,144 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FAKE FUTURE</title>
+	<link rel="shortcut icon" href="img/favicon2_360.png">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta name="description" content="Graphic Design Studio" />
+	<meta name="keywords" content="Graphic Design, branding, illustration, web design, web development, mobile app design" />
+	<meta name="author" content="Fake Future">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:200,300,600,400,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<div id="hireus_menu" class='container-fluid'>
+			<div class="hireus_header row">
+				<div id='logo_icon' class='col-lg-3 col-md-3 col-sm-5 col-xs-5'>
+					<a href='index.html'>
+						<img class="logo" src="img/icon_fakefuture_fullcolor.png">
+						<img class="logotype" src="img/fakefuture.svg">
+					</a>
+				</div>
+					<div id="menu_icon" class='col-lg-3 col-lg-offset-6 col-md-3 col-md-offset-6 col-sm-5 col-sm-offset-2 col-xs-5 col-xs-ofset-2' onclick='myfunction()'>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+			</div>
+			<div class="row title_row">
+			<h2 class='col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-12 col-xs-12'>HIRE US</h2>
+		</div>
+		<div class="row under_title_row">
+			<p class='col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12'>Let up capture your vision and values so we can help you build a vibrant product</p>
+		</div>
+			<div id="sectionhideus" class='row'>
+				<form id="theForm" class="simform col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" autocomplete="off">
+					<div class="simform-inner">
+						<ol class="questions">
+							<li>
+								<span><label for="q1">What's your favorite movie?</label></span>
+								<input id="q1" name="q1" type="text"/>
+							</li>
+							<li>
+								<span><label for="q2">Where do you live?</label></span>
+								<input id="q2" name="q2" type="text"/>
+							</li>
+							<li>
+								<span><label for="q3">What time do you got to work?</label></span>
+								<input id="q3" name="q3" type="text"/>
+							</li>
+							<li>
+								<span><label for="q4">How do you like your veggies?</label></span>
+								<input id="q4" name="q4" type="text"/>
+							</li>
+							<li>
+								<span><label for="q5">What book inspires you?</label></span>
+								<input id="q5" name="q5" type="text"/>
+							</li>
+							<li>
+								<span><label for="q6">What's your profession?</label></span>
+								<input id="q6" name="q6" type="text"/>
+							</li>
+						</ol><!-- /questions -->
+						<button class="submit" type="submit">Send answers</button>
+						<div class="controls">
+							<button class="next"></button>
+							<div class="progress"></div>
+							<span class="number">
+								<span class="number-current"></span>
+								<span class="number-total"></span>
+							</span>
+							<span class="error-message"></span>
+						</div><!-- / controls -->
+					</div><!-- /simform-inner -->
+					<span class="final-message"></span>
+				</form><!-- /simform -->
+			</div>
+			<div class='row' id='footer'>
+				<p class="text-center">Copyright <i class="fa fa-copyright"></i> 2015 fake Future. HANDCRAFTED WITH LOVE .</p>
+				</div>
+		</div>
+<div id="main_menu">
+
+			<div class="row" id="first_table_row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="studio.html" id='studio_icon'><i class="fa fa-desktop fa-5x"></i><p>STUDIO</p></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="services.html"><i class="fa fa-space-shuttle fa-5x"></i><p>SERVICES</p></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="work.html"><i class="fa fa-diamond fa-5x"></i><p>WORK</p></a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="skills.html"><i class="fa fa-gamepad fa-5x"></i><p>SKILLS</p></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="hireus.html" ><i class="fa fa-bicycle fa-5x"></i><p>HIRE US</p></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="contacts.html"><i class="fa fa-send fa-5x"></i><p>CONTACT</p></a>
+				</div>
+			</div>
+		</div>
+<script>
+	document.getElementById('menu_icon').onclick = function myfunction() {
+	document.getElementById('menu_icon').classList.toggle('open');
+	var mm = document.getElementById('main_menu');
+	if (mm.style.display == 'none' || mm.style.display == '') {
+    mm.style.display = 'block'
+    } else {
+        mm.style.display = 'none'};
+	}
+</script>
+		<script>
+			var theForm = document.getElementById( 'theForm' );
+
+			new stepsForm( theForm, {
+				onSubmit : function( form ) {
+					// hide form
+					classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+
+					/*
+					form.submit()
+					or
+					AJAX request (maybe show loading indicator while we don't have an answer..)
+					*/
+
+					// let's just simulate something...
+					var messageEl = theForm.querySelector( '.final-message' );
+					messageEl.innerHTML = 'Thank you! We\'ll be in touch.';
+					classie.addClass( messageEl, 'show' );
+				}
+			} );
+</script>
+
+</body>
+</html>
